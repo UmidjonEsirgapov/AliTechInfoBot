@@ -12,7 +12,6 @@ module.exports = {
     russian(msg, bot) {
 
         const chatId = helpers.getChatId(msg)
-        console.log(msg.text)
 
         switch (msg.text) {
             case kb.start.ru:

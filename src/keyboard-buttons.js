@@ -32,14 +32,23 @@ module.exports = {
         crm: 'CRM - Avtomatlashtirish',
 
     },
-    design: {
+    design1: {
         graphDesign: 'Grafik dizayn',
         logoDesign: 'Logo dizayn',
         ux: 'UL/UX dizayn'
     },
-    marketing: {
+    marketing1: {
         smm: 'Ijtimoiy tarmoqlar marketingi',
         smsMarketing: 'SMS marketing',
         seo: 'SEO rivojlantirish'
-    }
+    },
+
+    //======= Buyurtma =================
+
+    softProduct: 'Dasturiy maxsulot',
+    design: 'Dizayn',
+    marketing: 'Marketing',
+    backOrder: 'Orqaga qaytish'
+
+
 }
