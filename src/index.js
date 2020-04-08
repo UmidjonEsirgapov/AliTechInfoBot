@@ -216,6 +216,9 @@ bot.on('callback_query', query => {
             })
             break
     }
+
+
+    bot.answerCallbackQuery(query.id, `${query.data}`)
 })
 
 
