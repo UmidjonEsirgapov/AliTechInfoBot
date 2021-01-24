@@ -24,6 +24,8 @@ bot.onText(/\/start/, msg => {
     })
 })
 
+
+
 bot.on('message', msg => {
     const chatId = helpers.getChatId(msg)
 
@@ -130,17 +132,17 @@ bot.on('callback_query', query => {
                 caption: texts.eMarket
             })
             break
-        case kb.marketing.seo:
+        case kb.marketing1.seo:
             bot.sendPhoto(chat.id, texts.seoPhoto, {
                 caption: texts.seo
             })
             break
-        case kb.marketing.smm:
+        case kb.marketing1.smm:
             bot.sendPhoto(chat.id, texts.smmPhoto, {
                 caption: texts.smm
             })
             break
-        case kb.marketing.smsMarketing:
+        case kb.marketing1.smsMarketing:
             bot.sendPhoto(chat.id, texts.smsMarketingPhoto, {
                 caption: texts.smsMarketing
             })
@@ -218,7 +220,7 @@ bot.on('callback_query', query => {
     }
 
 
-    bot.answerCallbackQuery(query.id, `${query.data}`)
+    // bot.answerCallbackQuery(query.id, `${query.data}`)
 })
 
 
